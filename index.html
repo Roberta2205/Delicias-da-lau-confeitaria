@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles/styles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Delícias da Lau</title>
+  </head>
+
+  <body>
+    <header>
+      <nav id="navbar">
+        <i class="fa-solid fa-cake-candles" id="nav_logo"></i>
+
+        <ul id="nav_list">
+          <li class="nav_item active"><a href="#home">Home</a></li>
+          <li class="nav_item"><a href="#menu">Cardápio</a></li>
+          <li class="nav_item"><a href="#feedback">Feedback</a></li>
+        </ul>
+
+        <button class="btn-default">Peça Aqui</button>
+
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <div id="mobile_menu">
+        <ul id="mobilenav_list">
+          <li class="nav_item"><a href="#home">Home</a></li>
+          <li class="nav_item"><a href="#menu">Cardápio</a></li>
+          <li class="nav_item"><a href="#feedback">Feedback</a></li>
+        </ul>
+
+        <button class="btn-default">Peça Aqui</button>
+      </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+          <div class="shape"></div>
+
+          <div id="cta">
+            <h1 class="title">
+              <span>Inesquecível</span>
+              desde a primeira mordida.
+            </h1>
+
+            <p id="description">
+              Somos uma confeitaria artesanal dedicada a criar doces e bolos
+              que vão muito além de o sabor. Cada criação é feita com
+              ingredientes selecionados e uma pitada de amor, garantindo uma
+              experiencia inesquecivel.
+            </p>
+
+            <div id="cta_buttons">
+              <a href="https://w.app/gpfxr0" class="btn-default">Ver Cardápio</a>
+            </div>
+
+            <div class="social-media-buttons">
+              <a href="https://w.app/gpfxr0" class="social-media-button">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+
+              <a href="https://www.instagram.com/_deliciasdalau__/" class="social-media-button">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <div id="banner">
+            <img src="src/Assets/imagem-home.png" alt="bolos" />
+          </div>
+        </section>
+
+        <section id="menu">
+          <h2 class="section-title">Cardápio</h2>
+          <h3 class="section-subtitle">Especiais da casa</h3>
+
+          <div id="dishes">
+
+            <div class="dish">
+              <div class="dish-heart">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+
+              <img src="src/Assets/bolo-no-vidro.png" class="dish-image" alt="Bolo-no-vidro" />
+
+              <h3 class="dish-title">
+                Laus Crystal Cake
+              </h3>
+
+              <span class="dish-description">
+              Foi desenvolvido para ser apreciado em qualquer ocasião, seja em festas, eventos ou como uma sobremesa especial no dia a dia.
+              Trazendo a delicadeza e o sabor dos bolos tradicionais, mas com a praticidade de ser servido em um recipiente individual.  
+              </span>
+
+              <div class="dish-rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+
+              <div class="dish-price">
+                <h4>R$ 45,00</h4>
+                <button class="btn-default">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="dish">
+              <div class="dish-heart">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+
+              <img src="src/Assets/Red-velvet.png" class="dish-image" alt="Red-velvet" />
+
+              <h3 class="dish-title">
+                Bomboniere cake 
+              </h3>
+
+              <span class="dish-description">
+                O Bomboniere Cake é um bolo inspirado nas tradicionais bombonieres, oferecendo uma experiência doce e indulgente para os amantes de sobremesas.
+                Foi pensado especialmente para festas e celebrações, trazendo um toque de elegância e sabor a qualquer ocasião. 
+              </span>
+
+              <div class="dish-rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+
+              <div class="dish-price">
+                <h4>R$ 75,00</h4>
+                <button class="btn-default">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="dish">
+              <div class="dish-heart">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+
+              <img src="src/Assets/barra-recheada.png" class="dish-image" alt="barra-recheada" />
+
+              <h3 class="dish-title">
+                Barra Supreme
+              </h3>
+
+              <span class="dish-description">
+                Foi desenvolvida especialmente para os amantes de chocolate, tornando-se uma opção irresistível para quem busca uma experiência doce e agradável, 
+                perfeita para ser apreciada sozinha ou dividida com os amigos ou familiares.
+                
+              </span>
+
+              <div class="dish-rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+
+              <div class="dish-price">
+                <h4>R$ 45,00</h4>
+                <button class="btn-default">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="dish">
+              
+              <div class="dish-heart">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+
+              <img src="src/Assets/bolo-no-pote.png" class="dish-image" alt="bolo-no-pote" />
+
+              <h3 class="dish-title">
+                Torta no Pote
+              </h3>
+
+              <span class="dish-description">
+                A Torta no Pote é uma sobremesa prática e deliciosa, perfeita para quem busca uma opção individual e saborosa. 
+                Cada pote é cuidadosamente preparado com camadas de massa macia, recheios cremosos e coberturas irresistíveis, proporcionando uma experiência completa em cada colherada.
+              </span>
+
+              <div class="dish-rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+
+              <div class="dish-price">
+                <h4>R$ 18,00</h4>
+                <button class="btn-default">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="testimonials">
+        <img src="src/Assets/Imagem-delivery.png" alt="testimonials-logo" id="testimonials_logo">
+
+        <div id="testimonials_content">
+          <h2 class="section-title">Depoimentos</h2>
+          <h3 class="section-subtitle">O que os clientes falam sobre nós</h3>
+
+          <div id="feedbacks">
+
+            <div class="feedback">
+              <img src="src/Assets/avatar-masculino.jpg" class="feedback-avatar" alt="">
+
+              <div class="feedback-content">
+                <p>
+                  Gustavo Koch
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                </p>
+
+                <p>
+                  Doces excelentes e de qualidade impecável.
+                </p>
+
+                
+              </div>
+
+            </div>
+
+            <div class="feedback">
+              <img src="src/Assets/avatar-feminino.jpg" class="feedback-avatar" alt="">
+
+              <div class="feedback-content">
+                <p>
+                 Solange Normann
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                </p>
+
+                <p>
+                  Gosto muito dos bolos no pote e das tortas.
+                </p>
+              </div>
+            </div>
+
+            <a href="https://g.page/r/CUCAp1SceF2OEBI/review" class="btn-default">
+              <button class="btn-default">Veja as avaliações do Google!</button>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="src/Assets/wave.svg" alt="">
+
+      <div id="footer_items">
+        <span id="copyright">
+          &copy 2025 Desenvolvido por HR Tech - Todos os direitos reservados.
+        </span>
+
+        <div class="social-media-buttons">
+              <a href="https://w.app/gpfxr0" class="social-media-button">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+
+              <a href="https://www.instagram.com/_deliciasdalau__/" class="social-media-button">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+      </div>
+    </footer>
+
+    <script src="src/Javascript/script.js"></script>
+  </body>
+</html>
