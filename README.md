@@ -3,6 +3,7 @@
 <p>
   Este site foi desenvolvido com o intuito de ser uma Landing Page para uma confeitaria que atua somente com delivery. 
   Com este projeto eu pude aprimorar conceitos em HTML, CSS e Java Script, aprendendo novas funcionalidades e ferramentas que com certeza irão facilitar meu dia a dia.
+  Este site foi desenvolvido pensando na experiência do usuário com dispositivos MOBILE, foi pensado e planejado para que fique um site interativo e responsivo independente o dispositivo que o cliente utiliza.
 </p><br>
 
 <h1>Visualize o projeto</h1>
